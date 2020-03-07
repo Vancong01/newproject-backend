@@ -3,9 +3,11 @@ package com.example.springbootbackend.security.services.post;
 import com.example.springbootbackend.models.Post;
 import com.example.springbootbackend.repository.post.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class PostServiceImpl implements PostService {
     @Autowired
     private PostRepository postRepository;
