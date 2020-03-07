@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.springbootbackend.models.ERole;
-import com.example.springbootbackend.models.Role;
-import com.example.springbootbackend.models.User;
+import com.example.springbootbackend.models.user.ERole;
+import com.example.springbootbackend.models.user.Role;
+import com.example.springbootbackend.models.user.User;
 import com.example.springbootbackend.payload.request.LoginRequest;
 import com.example.springbootbackend.payload.request.SignupRequest;
 import com.example.springbootbackend.payload.response.JwtResponse;
